@@ -18,10 +18,11 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 - 004 Estação de carga autônoma
 - 005 Nav2 + LD06 + IMU, NUC
 - 006 `ros2_control` direto no driver
+- 007 Elétrica como o robô 1, e-stop traseiro só nas rodas, sem LED, sem micro
 
 ## Próximo tema da conversa
 
-**IMU, LEDs e botões**, e se ainda precisa de um microcontrolador pra eles.
+**Esquema elétrico** (chaves, fusíveis, relé do e-stop) e **modelo da IMU USB**.
 
 ## Pendências de compra/verificação
 

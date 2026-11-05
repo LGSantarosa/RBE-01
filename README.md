@@ -26,6 +26,7 @@ pra carregar.
 | Carga | **estação de carga autônoma** (ele vai e encaixa sozinho) | [004](docs/decisoes/004-estacao-de-carga-autonoma.md) |
 | Navegação | **Nav2** + LiDAR 2D **LD06** + **IMU**, mini PC tipo **NUC** | [005](docs/decisoes/005-navegacao-nav2-ld06-imu.md) |
 | Controle | `ros2_control` direto no driver, **sem microcontrolador na tração** | [006](docs/decisoes/006-software-ros2control-direto.md) |
+| Elétrica | parecida com o robô 1; **e-stop na traseira corta só as rodas**; sem LED; **sem microcontrolador** | [007](docs/decisoes/007-eletrica-e-emergencia.md) |
 
 - **Estado vivo** (o que está aberto, próximos passos): [`ESTADO_PROJETO.md`](ESTADO_PROJETO.md)
 - **Design da base** (o documento completo): [`docs/design/2026-11-05-base-movel.md`](docs/design/2026-11-05-base-movel.md)

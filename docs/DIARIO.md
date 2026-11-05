@@ -26,4 +26,8 @@ Conversa de idealização entre o dono e o assistente.
   comunicação, entrada X0 = parada rápida. Sem micro na tração.
 - **Disponibilidade:** sem distribuidor no Brasil; comprar 6 kits do mesmo lote.
 
-Próximo: IMU, LEDs, botões e se ainda precisa de microcontrolador.
+- **Elétrica:** parecida com o robô 1. **Botão de emergência na traseira** que
+  derruba só as rodas; **sem LED**. Com isso a base fica **sem nenhum
+  microcontrolador** (IMU por USB direto no NUC).
+
+Próximo: esquema elétrico e modelo da IMU.
