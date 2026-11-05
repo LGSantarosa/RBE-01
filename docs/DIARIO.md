@@ -43,4 +43,10 @@ Conversa de idealização entre o dono e o assistente.
   decks MDF/acrílico, suspensão de braço com mola) contra B (só alumínio) e
   C (só MDF, descartada). Montada uma apresentação de 17 slides pro time opinar.
 
+- **Apresentação revisada** (pedido do dono): saíram os slides de cenário,
+  lições, perguntas e próximos passos (ficou com 16). A suspensão virou 4 slides:
+  o problema, a mola nas motoras, a gangorra e o recomendado. Achado: **a gangorra
+  pura cabeceia** no losango (rodas e pivô na mesma linha). Recomendação nova:
+  **rodas motoras fixas, mola com batente nas omnis**.
+
 Próximo: trazer a opinião do time sobre o chassi.

@@ -45,7 +45,7 @@ Alturas a partir do chão (medidas são proposta):
 
 | Camada | Altura | O que leva |
 |---|---|---|
-| Bandeja de aço | 4–13 cm | motores + suspensão, omnis, 2 baterias, driver, relé, fusíveis, IMU no centro |
+| Bandeja de aço | 4–13 cm | motores (fixos), omnis com mola, omnis, 2 baterias, driver, relé, fusíveis, IMU no centro |
 | LD06 | ~15 cm, na frente, numa fresta do casco | — |
 | Deck MDF/acrílico | ~26 cm | NUC, conversores |
 | Colunas de alumínio | até ~50 cm | fixação do casco e da cabeça |
@@ -54,18 +54,33 @@ Vista de cima: base 50 × 50 cm, bitola ~42 cm, omnis a ±13 cm do centro, uma
 bateria de cada lado do eixo pra equilibrar, e-stop e contatos de carga na
 traseira.
 
-### Suspensão
+### Suspensão (revisada em 2026-11-05)
 
-Braço oscilante de **chapa de aço 4–5 mm**, pivô com bucha ou rolamento e
-**mola de compressão** (ou amortecedor de RC/bike) entre a bandeja e o braço.
-Curso de ~1–1,5 cm. A alternativa é a gangorra nas omnis.
+**O problema:** com 4 apoios num chassi rígido, só 3 tocam o chão. No losango
+(rodas motoras nas laterais, omnis na linha do meio), quando uma omni passa
+num desnível o chassi tomba de lado sobre a linha das omnis e **uma roda motora
+sai do chão**: ela patina e o robô sai do rumo. Poucos milímetros de corrediça
+bastam.
+
+| Caminho | Como | Avaliação |
+|---|---|---|
+| 1. Mola nas rodas motoras | braço oscilante com pivô + mola empurrando a roda; omnis fixas | funciona, mas **a tração passa a depender da pré-carga da mola** (ela precisa segurar ~12 kg por roda); o braço carrega o motor de 2 kg e o cabo; folga no pivô desalinha a roda e o robô puxa pro lado |
+| 2. Gangorra nas omnis | viga ligando omni da frente e de trás, com pivô no centro do chassi | **sozinha não funciona nesta geometria**: as duas rodas motoras e o pivô ficam na mesma linha (o eixo), então nada segura o chassi de girar em volta dela e ele **cabeceia** como um robô de 2 rodas. Precisa de molas de centragem, e aí vira o caminho 3 com as omnis acopladas. A gangorra pura só funciona com apoios fora de linha (ex.: rodas motoras atrás + gangorra na frente, como o eixo pendular de trator) |
+| **3. Rodas motoras fixas, mola nas omnis** | motor de cubo parafusado direto na bandeja; cada omni numa mola curta com **batente** (~10 mm de curso) | **recomendado**: tração vem do peso (CG em cima do eixo, baterias uma de cada lado); omni carrega pouco, então a mola é pequena, barata e com pouca pré-carga; sem braço, sem folga, sem desalinhar; com alguém empurrando, a omni encosta no batente e vira apoio rígido (a conta do tombamento continua valendo) |
+
+Cuidados do caminho 3: o centro de massa tem que ficar em cima do eixo, e a mola
+tem que ser firme o bastante pra o robô não cabecear ao frear (o plano do LiDAR
+inclina pouco). Rigidez e curso se acertam na bancada.
+
+Isso **substitui** a primeira ideia (mola nas rodas motoras), que era proposta
+do assistente.
 
 ### Fabricação
 
 | Peça | Material | Como | Quem |
 |---|---|---|---|
 | Bandeja | metalon 20×20 / 30×20 + chapa 2 mm | serra e solda | nós |
-| Suportes do motor e braços | chapa de aço 4–5 mm | corte a laser de chapa terceirizado (DXF) ou barra chata furada | fora / nós |
+| Suportes do motor e das omnis | chapa de aço 4–5 mm | corte a laser de chapa terceirizado (DXF) ou barra chata furada | fora / nós |
 | Colunas | perfil de alumínio 20×20 | serra + cantoneiras | nós |
 | Decks e tampas | MDF 9 mm ou acrílico 5 mm | laser | nós |
 | Suportes de LiDAR, IMU e cabos | PETG/ABS | impressão 3D | nós |
@@ -81,7 +96,7 @@ casco/cabeça 6,0 → **~30 kg**.
 ## Perguntas levadas ao time
 
 1. Chassi A ou B?
-2. Suspensão: mola nas rodas motoras ou gangorra nas omnis?
+2. Suspensão: rodas motoras fixas com mola nas omnis (recomendado), mola nas rodas motoras ou gangorra com molas?
 3. LiDAR baixo, na fresta (vê obstáculo baixo, mas as rodas tapam um pedaço), ou
    acima das rodas (vê 360°, mas perde o que é baixo)?
 4. Lastro até ~40 kg vale a pena?

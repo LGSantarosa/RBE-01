@@ -33,11 +33,11 @@ o próprio modelo já tinha as rodas no meio: "fica interessante".
 
 ## Consequências e pontos em aberto
 
-- **Suspensão obrigatória** (proposta do assistente, a fechar): sem ela, com 4
-  pontos rígidos, um desnível tira uma roda motora do chão e ela patina. Opções:
-  1. **mola nas rodas motoras** (braço articulado empurrando a roda contra o
-     chão) — preferida;
-  2. **gangorra (rocker) nas omnis** (frente e trás pivotando juntas no centro).
+- **Suspensão obrigatória**: sem ela, com 4 pontos rígidos, um desnível tira uma
+  roda motora do chão e ela patina. Análise completa na
+  [010](010-chassi-proposta.md): a recomendação atual é **rodas motoras fixas e
+  mola com batente nas omnis**. A gangorra pura nas omnis não funciona nesta
+  geometria (pivô em linha com o eixo, então o chassi cabeceia).
 - **Chão**: liso dentro da sala; fora dela há **tapete** e **corrediça de porta**
   que ele precisa passar quando necessário. Por isso a roda precisa ter
   diâmetro razoável (≥ ~14–15 cm) e as omnis não podem ser minúsculas.
