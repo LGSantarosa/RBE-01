@@ -16,20 +16,24 @@ Apresentação: https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL
   e-stop e contatos de carga na traseira, base pra um corpo de 70 cm, e dar pra
   repetir 5 vezes.
 
-## A conta do tombamento
+## A conta do tombamento (corrigida em 2026-11-05)
 
-Empurrão estático no topo: `F = m · d / h`, com `d` ≈ 0,22 m (centro até a
-borda do apoio) e `h` = 0,70 m.
+> ⚠️ A primeira versão usava `d` ≈ 0,22 m e chegava a ~11 kgf. **Estava errada**,
+> e foi apontado na [revisão externa](../revisoes/2026-11-05-revisao-externa.md).
+> As rodas motoras ficam a ±21 cm, mas as omnis só a ±13 cm, e os apoios formam um
+> **losango**. A borda mais próxima do centro fica a 13·21/√(13²+21²) ≈ **11 cm**.
 
-| Massa | Força pra tombar |
-|---|---|
-| 30 kg | ~9 kgf |
-| 35 kg | ~11 kgf |
-| 40 kg (com 10 kg de lastro) | ~13 kgf |
+Empurrão estático no topo, `F = m · d / h`, com `h` = 0,70 m:
 
-A altura do centro de massa não entra no empurrão estático (ela pesa em rampa,
-frenagem e batida). **Só massa e largura de apoio aumentam a força**, então o
-chassi pode ser o lastro. O par de motores aceita até 60 kg.
+| Massa | De lado (d = 21 cm) | De frente (d = 13 cm) | **Diagonal (d ≈ 11 cm)** |
+|---|---|---|---|
+| 30 kg | ~9 kgf | ~5,6 kgf | **~4,7 kgf** |
+| 35 kg | ~10,5 kgf | ~6,5 kgf | **~5,5 kgf** |
+| 40 kg | ~12 kgf | ~7,4 kgf | **~6,3 kgf** |
+
+**Lastro ajuda pouco** e aumenta a energia de uma batida. O que resolve é
+**alargar o polígono de apoio**. As opções estão na revisão (batentes antitombo
+nos cantos, omnis mais pra fora, 4 omnis nos cantos). **Decisão do dono pendente.**
 
 ## Opções
 

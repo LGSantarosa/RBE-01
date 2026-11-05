@@ -37,6 +37,8 @@ Levar a apresentação ao time e trazer as respostas (chassi A/B, suspensão, al
 - [ ] Largura e versão (V2.0/V2.07) do motor; cabos inclusos
 - [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: fixo ou giratório, curso da mola, se a omni cabe no garfo, entrega pro Brasil
 - [ ] Decidir o freio do e-stop (ver 007)
+- [ ] **Tombamento**: a conta corrigida dá ~5,5 kgf na diagonal. Decidir como alargar o apoio (ver `docs/revisoes/2026-11-05-revisao-externa.md`)
+- [ ] Triar com o dono os pontos da revisão externa (e-stop, LiDAR, regeneração, docagem, chapa dobrada, matriz de requisitos)
 
 ## Em aberto
 

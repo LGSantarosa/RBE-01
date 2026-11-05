@@ -70,5 +70,10 @@ Conversa de idealização entre o dono e o assistente.
   Pelas fotos da loja: o garfo é **giratório** (precisa travar) e a mola fica
   exposta num suporte em C. Fotos e desenho com as medidas no slide 17.
 
-Próximo: comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
+- **Revisão externa** da apresentação (em `docs/revisoes/`). Achou um **erro
+  meu no tombamento**: o apoio é um losango e a borda fica a ~11 cm, não 22, então
+  são ~5,5 kgf na diagonal, não 11. Corrigido nos slides 7 e 20 e na 010. Os
+  outros pontos foram triados na revisão.
+
+Próximo: decidir como alargar o apoio; comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
 freio do e-stop.
