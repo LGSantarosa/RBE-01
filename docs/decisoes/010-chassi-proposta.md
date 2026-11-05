@@ -68,6 +68,31 @@ bastam.
 | 2. Gangorra nas omnis | viga ligando omni da frente e de trás, com pivô no centro do chassi | **sozinha não funciona nesta geometria**: as duas rodas motoras e o pivô ficam na mesma linha (o eixo), então nada segura o chassi de girar em volta dela e ele **cabeceia** como um robô de 2 rodas. Precisa de molas de centragem, e aí vira o caminho 3 com as omnis acopladas. A gangorra pura só funciona com apoios fora de linha (ex.: rodas motoras atrás + gangorra na frente, como o eixo pendular de trator) |
 | **3. Rodas motoras fixas, mola nas omnis** | motor de cubo parafusado direto na bandeja; cada omni numa mola curta com **batente** (~10 mm de curso) | **recomendado**: tração vem do peso (CG em cima do eixo, baterias uma de cada lado); omni carrega pouco, então a mola é pequena, barata e com pouca pré-carga; sem braço, sem folga, sem desalinhar; com alguém empurrando, a omni encosta no batente e vira apoio rígido (a conta do tombamento continua valendo) |
 
+**Por que o caminho 3 resolve:** no chassi rígido, as quatro rodas estão
+travadas umas nas outras, então a omni subir na corrediça obriga o chassi a
+inclinar, e uma roda motora sai do chão. No caminho 3, quem define a altura e a
+posição do chassi são as **duas rodas motoras**, presas direto nele. As omnis só
+acompanham o chão, com uma mola entre elas e o chassi. A omni sobe, a mola
+encolhe alguns milímetros, e o chassi continua reto.
+
+**A janela da mola** (estimativas, a confirmar na bancada; robô de ~30 kg com o
+CG em cima do eixo e pré-carga de ~2 kg por omni):
+
+| | Chão liso | Omni numa corrediça de 10 mm |
+|---|---|---|
+| 2 rodas motoras | ~26 kg | ~21 kg |
+| Omni da frente | ~2 kg | ~7 kg |
+| Omni de trás | ~2 kg | ~2 kg |
+
+- **Mole demais:** cabeceia ao frear e bate no batente; o LiDAR balança junto.
+- **Dura demais:** a omni levanta o chassi como se fosse rígida, e volta o
+  problema.
+- **Na medida: ~5 N/mm, 10 mm de curso.** Na frenagem de 0,5 m/s² com o CG a
+  ~25 cm, o momento é 30 × 0,5 × 0,25 ≈ 3,75 N·m, ou ~29 N na omni (a 0,13 m),
+  ou seja ~6 mm de afundamento, dentro do batente. Na corrediça de 10 mm, a mola
+  pega ~50 N (~5 kg) das rodas motoras, que continuam com ~21 kg: tração de
+  sobra.
+
 Cuidados do caminho 3: o centro de massa tem que ficar em cima do eixo, e a mola
 tem que ser firme o bastante pra o robô não cabecear ao frear (o plano do LiDAR
 inclina pouco). Rigidez e curso se acertam na bancada.
