@@ -75,5 +75,9 @@ Conversa de idealização entre o dono e o assistente.
   são ~5,5 kgf na diagonal, não 11. Corrigido nos slides 7 e 20 e na 010. Os
   outros pontos foram triados na revisão.
 
-Próximo: decidir como alargar o apoio; comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
+- **Antitombo decidido:** sapatas de UHMW/nylon nos 4 cantos (011), com folga
+  = obstáculo medido + tolerância; critério de ≥ 10 kgf medido em qualquer
+  direção. Slide 21 novo, e os batentes entraram na vista de cima.
+
+Próximo: medir a corrediça e o tapete; comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
 freio do e-stop.

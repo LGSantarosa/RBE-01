@@ -33,7 +33,7 @@ Empurrão estático no topo, `F = m · d / h`, com `h` = 0,70 m:
 
 **Lastro ajuda pouco** e aumenta a energia de uma batida. O que resolve é
 **alargar o polígono de apoio**. As opções estão na revisão (batentes antitombo
-nos cantos, omnis mais pra fora, 4 omnis nos cantos). **Decisão do dono pendente.**
+nos cantos, omnis mais pra fora, 4 omnis nos cantos). **Decidido: batentes antitombo nos cantos, ver [011](011-batentes-antitombo.md).**
 
 ## Opções
 
