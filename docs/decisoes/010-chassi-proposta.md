@@ -45,7 +45,7 @@ Alturas a partir do chão (medidas são proposta):
 
 | Camada | Altura | O que leva |
 |---|---|---|
-| Bandeja de aço | 4–13 cm | motores (fixos), omnis com mola, omnis, 2 baterias, driver, relé, fusíveis, IMU no centro |
+| Bandeja de aço | 4–13 cm | motores (fixos), omnis com mola, 2 baterias, driver, relé, fusíveis, IMU no centro |
 | LD06 | ~15 cm, na frente, numa fresta do casco | — |
 | Deck MDF/acrílico | ~26 cm | NUC, conversores |
 | Colunas de alumínio | até ~50 cm | fixação do casco e da cabeça |
