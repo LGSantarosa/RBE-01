@@ -115,6 +115,28 @@ frenagem, então **precisa de amortecedor a óleo**.
 - Alternativa ao coilover: braço arrastado de 8–10 cm, onde a posição do
   coilover no braço ajusta a dureza.
 
+**Módulo da omni em detalhe (proposta, medidas estimadas):** fica **dentro do
+casco**, num **bolso recortado na bandeja**; por fora só aparece a parte de baixo
+da omni. De baixo pra cima:
+
+| # | Peça | Especificação |
+|---|---|---|
+| 1 | Omni | Ø100, alumínio + PU, ≥ 40 kg |
+| 11 | Eixo + rolamentos | Ø8, 2× 608ZZ, no garfo |
+| 8 | Mesa móvel + garfo | aço 3 mm |
+| 6 | 2 batentes | anel de PU, 5 mm (curso de 10 mm pra cima) |
+| 3 | 2 hastes | Ø8 retificada, ~80 mm, presas na mesa móvel |
+| 4 | 2 buchas lineares | LM8UU, na mesa fixa |
+| 7 | Mesa fixa | aço 3 mm, parafusada na bandeja |
+| 5 | 2 anéis-trava | no alto das hastes: limitam a descida |
+| 2 | Coilover RC | 1/10–1/8, óleo regulável; o anel dele acerta a pré-carga (~2 kg) |
+| 9 | Ponte + espaçadores | seguram o topo do coilover |
+| 10 | Bandeja | bolso recortado pro módulo |
+
+- Altura da torre: **~205 mm** (com coilover 1/8). O **LiDAR vai na frente dela**.
+  Um coilover 1/10, mais curto, baixa uns 3 cm. **Ponto a pensar.**
+- Vão livre da bandeja: 40 mm.
+
 Fontes: comparativo de suspensões de AGV
 (https://blog.csdn.net/qq_38880380/article/details/122716428), patente com omni
 em guia + rolamento linear + mola (US 11519112), rodízios de AGV com mola

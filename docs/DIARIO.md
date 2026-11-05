@@ -60,4 +60,8 @@ Conversa de idealização entre o dono e o assistente.
 - **Slide "RBE-01 por dentro":** o astronauta translúcido com toda a base
   desenhada por dentro, no fim da apresentação (19 slides).
 
+- **Módulo da omni em corte** (slide 20): fica dentro do casco, num bolso da
+  bandeja; torre de ~20 cm por causa do coilover, então o LiDAR vai na frente.
+  Lista de peças numerada na 010.
+
 Próximo: trazer a opinião do time sobre o chassi; o dono decide o freio do e-stop.
