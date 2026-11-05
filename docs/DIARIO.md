@@ -67,6 +67,8 @@ Conversa de idealização entre o dono e o assistente.
 - **Suspensão da omni: rodízio de portão com mola, pronto** (escolha do dono).
   Mola de 0,5 a 8 kg, na faixa da omni. Tira a roda de borracha e põe a omni.
   O módulo próprio virou plano B. Comprar 2 pra bancada.
+  Pelas fotos da loja: o garfo é **giratório** (precisa travar) e a mola fica
+  exposta num suporte em C. Fotos e desenho com as medidas no slide 17.
 
 Próximo: comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
 freio do e-stop.

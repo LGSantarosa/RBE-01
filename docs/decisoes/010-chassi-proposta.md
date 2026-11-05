@@ -133,6 +133,14 @@ abaixo fica como **plano B**.
   contra 6–12 ideal). Tração de sobra (rodas com ~23 kg na corrediça), mas afunda
   ~10 mm numa frenagem de 0,5 m/s² (~6 mm a 0,3 m/s²). Mitigação: rampa de
   frenagem suave no driver.
+- **⚠️ Pelas fotos e pelo desenho técnico da loja, o garfo é de rodízio GIRATÓRIO**
+  (rolamento de giro de Ø48 e deslocamento de 75 mm). O "fixed" do texto se refere
+  ao suporte. O mecanismo é um **suporte em "C"** (102 mm entre os braços) com um
+  **eixo vertical que desliza pelos dois braços e a mola exposta entre eles**, e
+  não um tubo fechado. Placa de 25 mm com furos de Ø11 a 57 mm. Garfo de 123 mm
+  de altura, roda Ø100 × 27.
+  **Precisa travar o giro do garfo e do eixo** (pino ou ponto de solda); sem isso,
+  volta o problema da roda boba do robô 3.
 - **Comprar 2 pra bancada e conferir:** se é fixo (a página se contradiz entre
   "fixed" e "swivel"), curso e dureza da mola, se a omni cabe no garfo de 27 mm,
   diâmetro do eixo, entrega pro Brasil.
