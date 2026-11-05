@@ -26,6 +26,7 @@ pra carregar.
 | Baterias | **LiFePO4 8S (25,6 V) ~10 Ah**, BMS ≥ 30 A contínuo / 60 A pico | [008](docs/decisoes/008-baterias-lifepo4.md) |
 | Carga | **estação de carga autônoma** (ele vai e encaixa sozinho) | [004](docs/decisoes/004-estacao-de-carga-autonoma.md) |
 | Navegação | **Nav2** + LiDAR 2D **LD06** + **IMU**, mini PC tipo **NUC** | [005](docs/decisoes/005-navegacao-nav2-ld06-imu.md) |
+| IMU | **BNO055 em UART** por adaptador USB-serial no NUC, sem magnetômetro no rumo | [009](docs/decisoes/009-imu-bno055-uart-usb.md) |
 | Controle | `ros2_control` direto no driver, **sem microcontrolador na tração** | [006](docs/decisoes/006-software-ros2control-direto.md) |
 | Elétrica | parecida com o robô 1; **e-stop na traseira corta só as rodas**; sem LED; **sem microcontrolador** | [007](docs/decisoes/007-eletrica-e-emergencia.md) |
 

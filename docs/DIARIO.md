@@ -34,4 +34,8 @@ Conversa de idealização entre o dono e o assistente.
 - **Baterias LiFePO4** (proposta aceita): 8S ~10 Ah, BMS ≥ 30 A / 60 A pico pra
   "aguentar as paradas". Condição: confirmar que o ZLAC8015D aceita ~20 V.
 
-Próximo: modelo da IMU, depois o esquema elétrico.
+- **IMU:** BNO055, a melhor do robô 1 segundo o dono, em **modo UART** com
+  adaptador USB-serial (ideia do dono). Existe driver ROS 2 Jazzy pronto. Sem
+  magnetômetro no rumo por causa dos ímãs dos motores de cubo.
+
+Próximo: chassi e fabricação, depois o esquema elétrico.

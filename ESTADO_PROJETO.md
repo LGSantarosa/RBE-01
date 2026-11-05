@@ -20,10 +20,11 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 - 006 `ros2_control` direto no driver
 - 007 Elétrica como o robô 1, e-stop traseiro só nas rodas, sem LED, sem micro
 - 008 Baterias LiFePO4 8S ~10 Ah (depende da tensão do driver)
+- 009 IMU BNO055 por UART/USB, modo IMU (sem magnetômetro)
 
 ## Próximo tema da conversa
 
-**Modelo da IMU USB**, depois o esquema elétrico completo.
+**Chassi e fabricação** (material, suspensão, omnis, layout interno), depois o esquema elétrico completo.
 
 ## Pendências de compra/verificação
 

@@ -69,6 +69,7 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 | Carga | **estação autônoma**, ele encaixa sozinho (dono) | [004](../decisoes/004-estacao-de-carga-autonoma.md) |
 | Navegação | **Nav2 + LD06 + IMU**, **mini PC tipo NUC** (dono) | [005](../decisoes/005-navegacao-nav2-ld06-imu.md) |
 | Elétrica | como o robô 1; **e-stop na traseira** derruba só as rodas; **sem LED**; base **sem microcontrolador** (dono + consequência) | [007](../decisoes/007-eletrica-e-emergencia.md) |
+| IMU | **BNO055 em modo UART** + adaptador USB-serial no NUC, driver `bno055` Jazzy; modo de fusão IMU, sem magnetômetro (dono + proposta) | [009](../decisoes/009-imu-bno055-uart-usb.md) |
 | Software da tração | `ros2_control` direto no driver + `diff_drive_controller`, sem micro na tração, SI ponta a ponta (proposta, aceita com a tração) | [006](../decisoes/006-software-ros2control-direto.md) |
 
 ## 7. Propostas ainda não confirmadas
@@ -83,8 +84,7 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 
 ## 8. Em aberto (próximos temas da idealização)
 
-1. **IMU**: modelo USB direto no NUC (LEDs: não tem; botão: e-stop, ver 007).
-   **Esquema elétrico**: chaves, fusíveis, relé do e-stop, DC-DC do NUC.
+1. ~~IMU~~ → [009](../decisoes/009-imu-bno055-uart-usb.md). **Esquema elétrico**: chaves, fusíveis, relé do e-stop, DC-DC do NUC.
 2. **Baterias**: modelo/fornecedor, monitoramento das duas no ROS. **Depende da
    faixa de tensão do ZLAC8015D.**
 3. **Suspensão e omnis**: tipo, diâmetro da omni, curso.
