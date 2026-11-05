@@ -22,9 +22,13 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 - 008 Baterias LiFePO4 8S ~10 Ah (depende da tensão do driver)
 - 009 IMU BNO055 por UART/USB, modo IMU (sem magnetômetro)
 
+## Em discussão
+
+- 010 Chassi: proposta A (aço embaixo, alumínio em cima, MDF/acrílico). Apresentação pro time: https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL
+
 ## Próximo tema da conversa
 
-**Chassi e fabricação** (material, suspensão, omnis, layout interno), depois o esquema elétrico completo.
+Levar a apresentação ao time e trazer as respostas (chassi A/B, suspensão, altura do LiDAR, lastro, estação de carga). Depois: esquema elétrico completo.
 
 ## Pendências de compra/verificação
 

@@ -38,4 +38,9 @@ Conversa de idealização entre o dono e o assistente.
   adaptador USB-serial (ideia do dono). Existe driver ROS 2 Jazzy pronto. Sem
   magnetômetro no rumo por causa dos ímãs dos motores de cubo.
 
-Próximo: chassi e fabricação, depois o esquema elétrico.
+- **Chassi:** ferramentas da casa são impressão 3D, laser de MDF/acrílico e solda
+  simples. Proposta A (aço soldado embaixo como lastro, colunas de alumínio,
+  decks MDF/acrílico, suspensão de braço com mola) contra B (só alumínio) e
+  C (só MDF, descartada). Montada uma apresentação de 17 slides pro time opinar.
+
+Próximo: trazer a opinião do time sobre o chassi.

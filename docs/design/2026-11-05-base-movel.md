@@ -88,8 +88,7 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 2. **Baterias**: modelo/fornecedor, monitoramento das duas no ROS. **Depende da
    faixa de tensão do ZLAC8015D.**
 3. **Suspensão e omnis**: tipo, diâmetro da omni, curso.
-4. **Chassi**: material, layout interno (baterias, NUC, driver), pontos de fixação
-   do corpo.
+4. **Chassi**: proposta A em discussão com o time, ver [010](../decisoes/010-chassi-proposta.md).
 5. **LD06**: altura, campo cego das rodas, o que precisa enxergar.
 6. **Estação de carga**: contatos, detecção de encaixe, carga das duas baterias.
 7. **Segurança**: e-stop, corte geral, limites de velocidade/aceleração perto de
