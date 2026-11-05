@@ -1,14 +1,15 @@
 # 007 — Elétrica, botão de emergência e (sem) microcontrolador
 
 **Data:** 2026-11-05
-**Estado:** aceita no conceito (decisão do dono). O esquema elétrico está em
-aberto.
+**Estado:** aceita no conceito (decisão do dono), **inclusive o relé automotivo
+do e-stop**. O esquema elétrico completo está em aberto.
 
 ## Decisão (do dono)
 
 - **Elétrica parecida com a do robô 1**: duas baterias, cada uma com seu circuito.
 - **Botão de emergência na traseira** do robô.
-- O botão **derruba só a elétrica das rodas**. O NUC e os sensores continuam
+- O botão **derruba só a elétrica das rodas**, **acionando um relé automotivo de
+  24 V** que corta a tração (o dono aprovou: "gosto desse relé"). O NUC e os sensores continuam
   ligados (não perdem mapa nem posição).
 - **Sem LED** de sinalização na base.
 
@@ -34,7 +35,7 @@ Portanto **nenhum microcontrolador** na base. Quando o corpo vier, o estado
 - O botão faz duas coisas:
   1. **Corta a alimentação da tração** no hardware, sem depender de software.
      Como a corrente de pico dos dois motores pode passar do que o contato do
-     botão aguenta em DC, o botão comanda um **relé/contator automotivo de 24 V**
+     botão aguenta em DC, o botão comanda um **relé automotivo de 24 V** (aprovado)
      (barato, ~40 A) em vez de passar a corrente por ele. No robô 1 a contatora
      industrial foi descartada pelo preço; o relé automotivo resolve isso.
   2. **Sinaliza o driver e o NUC** (contato auxiliar NF na entrada X0 do ZLAC,
