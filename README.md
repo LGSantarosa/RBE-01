@@ -30,6 +30,7 @@ pra carregar.
 | Controle | `ros2_control` direto no driver, **sem microcontrolador na tração** | [006](docs/decisoes/006-software-ros2control-direto.md) |
 | Chassi | **proposta em discussão**: aço soldado embaixo, alumínio em cima, decks MDF/acrílico | [010](docs/decisoes/010-chassi-proposta.md) |
 | Antitombo | **sapatas de UHMW/nylon nos 4 cantos**, folga = obstáculo + tolerância, ≥ 10 kgf em qualquer direção | [011](docs/decisoes/011-batentes-antitombo.md) |
+| Proteção das rodas | **para-lama no casco** cobrindo o topo das rodas (mão de criança não entra) | [012](docs/decisoes/012-protecao-das-rodas.md) |
 | Elétrica | parecida com o robô 1; **e-stop na traseira corta só as rodas**; sem LED; **sem microcontrolador** | [007](docs/decisoes/007-eletrica-e-emergencia.md) |
 
 - **Apresentação pro time** (base + proposta de chassi): https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL

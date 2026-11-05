@@ -22,6 +22,7 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 - 008 Baterias LiFePO4 8S ~10 Ah (depende da tensão do driver)
 - 009 IMU BNO055 por UART/USB, modo IMU (sem magnetômetro)
 - 011 Batentes antitombo nos 4 cantos
+- 012 Para-lama cobrindo o topo das rodas motoras (requisito)
 
 ## Em discussão
 

@@ -79,5 +79,8 @@ Conversa de idealização entre o dono e o assistente.
   = obstáculo medido + tolerância; critério de ≥ 10 kgf medido em qualquer
   direção. Slide 21 novo, e os batentes entraram na vista de cima.
 
+- **Para-lama nas rodas** (dono): proteção em cima pra criança não enfiar a mão
+  (012). Batentes e para-lamas entraram no slide "por dentro".
+
 Próximo: medir a corrediça e o tapete; comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
 freio do e-stop.
