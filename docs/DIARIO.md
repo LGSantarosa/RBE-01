@@ -49,4 +49,15 @@ Conversa de idealização entre o dono e o assistente.
   pura cabeceia** no losango (rodas e pivô na mesma linha). Recomendação nova:
   **rodas motoras fixas, mola com batente nas omnis**.
 
-Próximo: trazer a opinião do time sobre o chassi.
+- **Suspensão por dentro:** slides novos explicando por que a mola nas omnis
+  resolve e a "janela" da mola. Mola revisada pra ~8 N/mm (faixa 6–12) +
+  amortecedor a óleo (sem ele, ~2 Hz de balanço). Pesquisa: não existe omni
+  com suspensão pronta; o padrão de AGV leve é guia vertical + mola. Proposta:
+  hastes de 8 mm + LM8UU + coilover RC 1/8 + batente de PU; omni de alumínio
+  ≥ 40 kg.
+- **Achado:** o e-stop cortando o driver tira o freio (o robô rola 30–50 cm).
+  Pendente com o dono (ver 007).
+- **Slide "RBE-01 por dentro":** o astronauta translúcido com toda a base
+  desenhada por dentro, no fim da apresentação (19 slides).
+
+Próximo: trazer a opinião do time sobre o chassi; o dono decide o freio do e-stop.

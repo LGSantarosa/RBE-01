@@ -54,6 +54,12 @@ precisa ser escolhido com corrente de pico acima do que o driver pede.
 
 ## Em aberto
 
+- **⚠️ Freio na emergência (levantado em 2026-11-05, decisão do dono pendente):**
+  cortar a energia do driver no relé tira a capacidade de frear. Os motores de
+  cubo ficam soltos e o robô **segue rolando** uns 30–50 cm a 0,4 m/s. O usual
+  é o botão mandar a **parada rápida pela X0 primeiro** (o driver freia ativo) e o
+  relé cortar **~0,5 s depois** (relé temporizado).
+
 - Esquema elétrico completo (chaves, fusíveis, relé, conversor DC-DC do NUC).
 - Como a estação de carga entra nesse circuito ([004](004-estacao-de-carga-autonoma.md)).
 - Modelo da IMU USB.

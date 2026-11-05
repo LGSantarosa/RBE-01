@@ -93,6 +93,33 @@ CG em cima do eixo e pré-carga de ~2 kg por omni):
   pega ~50 N (~5 kg) das rodas motoras, que continuam com ~21 kg: tração de
   sobra.
 
+**Mola revisada (8 N/mm, faixa 6–12) e amortecimento.** A primeira conta (5 N/mm)
+exagerava o risco da mola dura: pra acelerar a 0,5 m/s² o robô precisa de só
+~2 kgf de tração, e com 8 N/mm as rodas motoras ainda ficam com ~18 kg (30 kg)
+ou ~28 kg (40 kg) numa corrediça de 10 mm. Frenagem: ~4 mm (30 kg) / ~5 mm
+(40 kg) de afundamento. Só mola daria um balanço de ~2 Hz depois de cada
+frenagem, então **precisa de amortecedor a óleo**.
+
+**Hardware da suspensão (proposta):**
+- **Não existe omni com suspensão pronta pra comprar** (pesquisa de 2026-11-05).
+  O que existe pronto não serve: rodízio giratório com mola (é a roda boba) e
+  rodízio fixo com mola (não desliza de lado no giro).
+- O padrão de AGV de carga leve é **guia vertical com mola**: duas hastes,
+  buchas lineares e mola, curso de ~±10 mm. Proposta: **2 hastes de 8 mm +
+  buchas LM8UU** (peças de impressora 3D) segurando o garfo da omni, com um
+  **coilover de RC 1/8** (mola + óleo, anel de pré-carga) no centro e **batente
+  de poliuretano** em 10 mm.
+- **Omni de alumínio com roletes de PU, 100 mm, carga ≥ 40 kg** (com alguém se
+  apoiando na frente, a omni encosta no batente e carrega 30 kg ou mais; a
+  Nexus de aço de 100 mm aguenta só ~10 kg). Alternativa: omni dupla.
+- Alternativa ao coilover: braço arrastado de 8–10 cm, onde a posição do
+  coilover no braço ajusta a dureza.
+
+Fontes: comparativo de suspensões de AGV
+(https://blog.csdn.net/qq_38880380/article/details/122716428), patente com omni
+em guia + rolamento linear + mola (US 11519112), rodízios de AGV com mola
+(https://www.keystonecastors.co.uk/castors/agv-castors/shock-absorbing-dual-wheel-agv-castors/).
+
 Cuidados do caminho 3: o centro de massa tem que ficar em cima do eixo, e a mola
 tem que ser firme o bastante pra o robô não cabecear ao frear (o plano do LiDAR
 inclina pouco). Rigidez e curso se acertam na bancada.
