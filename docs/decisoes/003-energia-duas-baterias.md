@@ -1,8 +1,8 @@
 # 003 — Energia: duas baterias iguais (tração / computação)
 
 **Data:** 2026-11-05
-**Estado:** aceita no conceito (decisão do dono). A química, o modelo e a
-capacidade estão em aberto.
+**Estado:** aceita no conceito (decisão do dono). Química e capacidade fechadas
+na [008](008-baterias-lifepo4.md) (LiFePO4 8S ~10 Ah); modelo em aberto.
 
 ## Requisitos (do dono)
 

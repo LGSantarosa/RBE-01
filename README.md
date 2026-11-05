@@ -23,6 +23,7 @@ pra carregar.
 | Cinemática | diferencial, rodas motoras no **meio**, omni na frente e atrás | [001](docs/decisoes/001-cinematica-diferencial-rodas-centrais.md) |
 | Tração | cubo servo AGV **ZLTECH 5,5"** + driver **ZLAC8015D** por RS485 | [002](docs/decisoes/002-tracao-zltech-hub-servo.md) |
 | Energia | **2 baterias iguais**: tração / computação | [003](docs/decisoes/003-energia-duas-baterias.md) |
+| Baterias | **LiFePO4 8S (25,6 V) ~10 Ah**, BMS ≥ 30 A contínuo / 60 A pico | [008](docs/decisoes/008-baterias-lifepo4.md) |
 | Carga | **estação de carga autônoma** (ele vai e encaixa sozinho) | [004](docs/decisoes/004-estacao-de-carga-autonoma.md) |
 | Navegação | **Nav2** + LiDAR 2D **LD06** + **IMU**, mini PC tipo **NUC** | [005](docs/decisoes/005-navegacao-nav2-ld06-imu.md) |
 | Controle | `ros2_control` direto no driver, **sem microcontrolador na tração** | [006](docs/decisoes/006-software-ros2control-direto.md) |

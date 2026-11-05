@@ -30,4 +30,8 @@ Conversa de idealização entre o dono e o assistente.
   derruba só as rodas; **sem LED**. Com isso a base fica **sem nenhum
   microcontrolador** (IMU por USB direto no NUC).
 
-Próximo: esquema elétrico e modelo da IMU.
+- **Relé automotivo** do e-stop aprovado.
+- **Baterias LiFePO4** (proposta aceita): 8S ~10 Ah, BMS ≥ 30 A / 60 A pico pra
+  "aguentar as paradas". Condição: confirmar que o ZLAC8015D aceita ~20 V.
+
+Próximo: modelo da IMU, depois o esquema elétrico.

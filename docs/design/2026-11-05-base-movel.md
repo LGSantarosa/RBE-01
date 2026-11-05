@@ -65,6 +65,7 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 | Driver | **ZLAC8015D**, modo velocidade, Modbus RTU/RS485 (dono aprovou) | [002](../decisoes/002-tracao-zltech-hub-servo.md), [notas](../hardware/zlac8015d.md) |
 | Compra | 6 kits, mesmo lote, direto da fábrica (proposta) | [002](../decisoes/002-tracao-zltech-hub-servo.md) |
 | Energia | **2 baterias iguais**: tração / computação (dono) | [003](../decisoes/003-energia-duas-baterias.md) |
+| Baterias | **LiFePO4 8S (25,6 V) ~10 Ah** cada, BMS ≥ 30 A / 60 A pico (dono aceitou a proposta) | [008](../decisoes/008-baterias-lifepo4.md) |
 | Carga | **estação autônoma**, ele encaixa sozinho (dono) | [004](../decisoes/004-estacao-de-carga-autonoma.md) |
 | Navegação | **Nav2 + LD06 + IMU**, **mini PC tipo NUC** (dono) | [005](../decisoes/005-navegacao-nav2-ld06-imu.md) |
 | Elétrica | como o robô 1; **e-stop na traseira** derruba só as rodas; **sem LED**; base **sem microcontrolador** (dono + consequência) | [007](../decisoes/007-eletrica-e-emergencia.md) |
@@ -74,7 +75,7 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 
 - Velocidade máx. **~0,4 m/s** perto de criança, ~0,6 m/s em corredor.
 - **Suspensão de mola** nas rodas motoras (alternativa: gangorra nas omnis).
-- Baterias **24 V, ~200 Wh cada**, no fundo do chassi.
+- Baterias no fundo do chassi.
 - **Contatos de carga na traseira**, entrando de ré; alvo em V pro LiDAR.
 - LD06 **baixo, numa fresta em volta da base**, com os ângulos das rodas mascarados.
 - E-stop **cogumelo com trava**, acionando **relé automotivo** que corta a tração, mais contato na **entrada X0** do driver.
@@ -84,8 +85,8 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 
 1. **IMU**: modelo USB direto no NUC (LEDs: não tem; botão: e-stop, ver 007).
    **Esquema elétrico**: chaves, fusíveis, relé do e-stop, DC-DC do NUC.
-2. **Baterias**: química (Li-ion vs LiFePO4), modelo, BMS, monitoramento das
-   duas no ROS.
+2. **Baterias**: modelo/fornecedor, monitoramento das duas no ROS. **Depende da
+   faixa de tensão do ZLAC8015D.**
 3. **Suspensão e omnis**: tipo, diâmetro da omni, curso.
 4. **Chassi**: material, layout interno (baterias, NUC, driver), pontos de fixação
    do corpo.
