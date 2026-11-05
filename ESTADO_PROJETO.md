@@ -35,6 +35,8 @@ Levar a apresentação ao time e trazer as respostas (chassi A/B, suspensão, al
 - [ ] Cotação de **6 kits** ZLTECH (ZLLG55ASM150 + ZLAC8015D), mesmo lote
 - [ ] **Faixa de tensão de alimentação do ZLAC8015D** (manual de hardware). Bloqueia a compra da bateria (008)
 - [ ] Largura e versão (V2.0/V2.07) do motor; cabos inclusos
+- [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: fixo ou giratório, curso da mola, se a omni cabe no garfo, entrega pro Brasil
+- [ ] Decidir o freio do e-stop (ver 007)
 
 ## Em aberto
 

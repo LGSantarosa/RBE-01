@@ -115,7 +115,33 @@ frenagem, então **precisa de amortecedor a óleo**.
 - Alternativa ao coilover: braço arrastado de 8–10 cm, onde a posição do
   coilover no braço ajusta a dureza.
 
-**Módulo da omni em detalhe (proposta, medidas estimadas):** fica **dentro do
+**✅ Escolha do dono (2026-11-05): rodízio de portão com mola, comprado pronto.**
+"Esse negócio já pronto me faz mais feliz do que criar um." O módulo próprio
+abaixo fica como **plano B**.
+
+- Peça: *Light Duty Sprung Gate Castor (60 kg)*, Castors Online (Reino Unido),
+  https://www.castors-online.co.uk/product/light-duty-sprung-gate-castor-60kg-4692
+- Ficha: mola que **começa em 0,5 kg e fecha em 8 kg** (a faixa da nossa omni; o
+  fechamento faz as vezes de batente), carga 60 kg, roda 100 × 27 mm de borracha,
+  altura **276 mm**, aço prensado zincado, fixação por **placa lateral** de
+  102 × 25 mm com furos **M10 a 57 mm**, £ 21,09 sem imposto / £ 25,31 com.
+- Adaptação: **tirar a roda de borracha e montar a omni no garfo** (espaçadores
+  se precisar). Fixar a placa num **suporte soldado na bandeja**.
+- Consequências: com 276 mm de altura, o **deck do NUC sobe pra ~30 cm**. Sem
+  amortecedor: se balançar, entra um **amortecedor de RC do lado**.
+- **Mola mais macia que o ideal** (estimativa: curso de ~25 mm, o que dá ~3 N/mm,
+  contra 6–12 ideal). Tração de sobra (rodas com ~23 kg na corrediça), mas afunda
+  ~10 mm numa frenagem de 0,5 m/s² (~6 mm a 0,3 m/s²). Mitigação: rampa de
+  frenagem suave no driver.
+- **Comprar 2 pra bancada e conferir:** se é fixo (a página se contradiz entre
+  "fixed" e "swivel"), curso e dureza da mola, se a omni cabe no garfo de 27 mm,
+  diâmetro do eixo, entrega pro Brasil.
+- Parecidos: Caujolle (França), mola macia e 70 mm de curso
+  (https://www.caujolle.fr/en/gate-wheels-and-accessories/1922-fixed-gate-wheel-with-soft-spring-diameter-100-mm-load-75kg-to-15kg-with-70mm-travel.html);
+  Keypak 57 kg na B&Q, mola não informada. Rodízios com mola comuns (RS PRO
+  75 kg, R4089 100–200 kg) têm mola dura demais e ficariam rígidos.
+
+**Plano B: módulo próprio da omni (medidas estimadas):** fica **dentro do
 casco**, num **bolso recortado na bandeja**; por fora só aparece a parte de baixo
 da omni. De baixo pra cima:
 

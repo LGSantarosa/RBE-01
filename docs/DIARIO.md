@@ -64,4 +64,9 @@ Conversa de idealização entre o dono e o assistente.
   bandeja; torre de ~20 cm por causa do coilover, então o LiDAR vai na frente.
   Lista de peças numerada na 010.
 
-Próximo: trazer a opinião do time sobre o chassi; o dono decide o freio do e-stop.
+- **Suspensão da omni: rodízio de portão com mola, pronto** (escolha do dono).
+  Mola de 0,5 a 8 kg, na faixa da omni. Tira a roda de borracha e põe a omni.
+  O módulo próprio virou plano B. Comprar 2 pra bancada.
+
+Próximo: comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
+freio do e-stop.
