@@ -112,3 +112,8 @@ detalhar docagem, fabricação e matriz de requisitos.
   profundidade no peito** pro que é baixo (mochila, pé, mesa). Para-choque na
   X1 do ZLAC ficou como proposta. Falta medir as mesas da sala e escolher a
   câmera. Revisão externa: ponto 3 resolvido.
+
+- **Rodízio com a omni reta** (dono): a omni fica alinhada embaixo do eixo, sem
+  o deslocamento do garfo giratório. Travar o giro não basta; o garfo precisa
+  ser trocado ou adaptado. Registrado na 010 e na pendência da bancada.
+  Desenho do slide 9 corrigido.

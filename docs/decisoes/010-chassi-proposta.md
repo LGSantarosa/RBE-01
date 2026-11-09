@@ -149,6 +149,11 @@ abaixo fica como **plano B**.
   de altura, roda Ø100 × 27.
   **Precisa travar o giro do garfo e do eixo** (pino ou ponto de solda); sem isso,
   volta o problema da roda boba do robô 3.
+- **✅ Omni reta embaixo do eixo (dono, 2026-11-09).** A omni fica alinhada com
+  o eixo vertical, sem o deslocamento do garfo giratório. Como o garfo de
+  fábrica é deslocado, **travar o giro não basta**: o garfo precisa ser
+  **trocado por um garfo reto ou adaptado** pra pôr o eixo da omni na linha do
+  eixo do rodízio. Fica pra definir na bancada.
 - **Comprar 2 pra bancada e conferir:** se é fixo (a página se contradiz entre
   "fixed" e "swivel"), curso e dureza da mola, se a omni cabe no garfo de 27 mm,
   diâmetro do eixo, entrega pro Brasil.

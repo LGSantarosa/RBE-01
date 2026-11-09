@@ -40,7 +40,7 @@ esquema elétrico completo.
 - [ ] Cotação de **6 kits** ZLTECH (ZLLG55ASM150 + ZLAC8015D), mesmo lote
 - [ ] **Faixa de tensão de alimentação do ZLAC8015D** (manual de hardware). Bloqueia a compra da bateria (008)
 - [ ] Largura e versão (V2.0/V2.07) do motor; cabos inclusos
-- [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: fixo ou giratório, curso da mola, se a omni cabe no garfo, entrega pro Brasil
+- [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: giro já confirmado; travar o giro, **garfo reto com a omni embaixo do eixo** (trocar ou adaptar o garfo), curso e rigidez da mola, folga, se a omni cabe, entrega pro Brasil
 - [ ] Decidir o freio do e-stop (ver 007)
 - [ ] **Medir a altura das mesas e cadeiras da sala** (o LD06 a ~70 cm não pode ficar no plano do tampo, 014)
 - [ ] Escolher a câmera de profundidade do peito (014)
