@@ -44,6 +44,8 @@ esquema elétrico completo.
 - [ ] Decidir o freio do e-stop (ver 007)
 - [ ] **Medir a altura das mesas e cadeiras da sala** (o LD06 a ~70 cm não pode ficar no plano do tampo, 014)
 - [ ] Escolher a câmera de profundidade do peito (014)
+- [ ] Se o chassi A for escolhido, encontrar serviço externo de **solda de
+  metalon e corte de chapa de aço**; a opção B evita a solda (010)
 - [x] **Tombamento**: decidido, batentes antitombo nos cantos (011). Falta medir o maior obstáculo do piso pra definir a folga
 - [ ] Concluir as ações da revisão externa: pontos **1, 3, 5, 6 e 9 resolvidos**;
   faltam **2, 4, 7, 8 e 10** (e-stop, rodízio, docagem, fabricação e matriz de

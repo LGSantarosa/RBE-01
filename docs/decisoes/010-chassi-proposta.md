@@ -8,8 +8,9 @@ Apresentação: https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL
 
 ## Restrições
 
-- **Ferramentas da casa** (dono): impressão 3D, **corte a laser de MDF e
-  acrílico** (não corta metal) e solda simples.
+- **Ferramentas da equipe** (dono): impressão 3D e **corte a laser de MDF e
+  acrílico** (não corta metal). Ninguém da equipe solda metalon; a opção A
+  depende de serviço externo de solda e corte de aço.
 - O dono acha o chassi "a parte mais embaçada": material e como fazer.
 - Tem que segurar: ~30–35 kg com massa embaixo, rodas motoras fixas e suspensão
   nas omnis ([001](001-cinematica-diferencial-rodas-centrais.md)), LD06 enxergando,
@@ -39,7 +40,7 @@ nos cantos, omnis mais pra fora, 4 omnis nos cantos). **Decidido: batentes antit
 
 | Opção | Como é | Prós | Contras | Resultado |
 |---|---|---|---|---|
-| **A** | bandeja de **metalon soldado** + **colunas de perfil de alumínio** + **decks de MDF/acrílico** no laser | o peso fica onde deve (o aço é o lastro); robusto; usa solda e laser da casa; em cima continua ajustável | solda tem que sair no esquadro; mexer na bandeja depois dá trabalho | **recomendada** |
+| **A** | bandeja de **metalon soldado** + **colunas de perfil de alumínio** + **decks de MDF/acrílico** no laser | o peso fica onde deve (o aço é o lastro); robusto; laser de MDF/acrílico na equipe; em cima continua ajustável | depende de serviço externo; solda tem que sair no esquadro; mexer na bandeja depois dá trabalho | **recomendada** |
 | B | tudo em **perfil de alumínio V-slot** parafusado + chapas MDF/acrílico + lastro de aço | sem solda; fácil de ajustar e repetir; bom pro 1º protótipo | leve, precisa de lastro; perfis e conexões custam mais | alternativa |
 | C | tudo em **MDF/compensado** cortado a laser, em camadas | mais barato e rápido | MDF não segura suporte de motor nem pancada, sofre com umidade, não dura em 5 robôs | descartada (no máximo maquete) |
 
@@ -195,13 +196,18 @@ do assistente.
 
 | Peça | Material | Como | Quem |
 |---|---|---|---|
-| Bandeja | metalon 20×20 / 30×20 + chapa 2 mm | serra e solda | nós |
+| Bandeja | metalon 20×20 / 30×20 + chapa 2 mm | serra/corte + solda | fora — a definir |
 | Suportes do motor e das omnis | chapa de aço 4–5 mm | corte a laser de chapa terceirizado (DXF) ou barra chata furada | fora / nós |
 | Colunas | perfil de alumínio 20×20 | serra + cantoneiras | nós |
 | Decks e tampas | MDF 9 mm ou acrílico 5 mm | laser | nós |
 | Suportes de LiDAR, IMU e cabos | PETG/ABS | impressão 3D | nós |
 | Lastro | chapa/barra de aço | parafusado na bandeja | nós |
 | Casco | a definir | fase seguinte | — |
+
+Serviços de fabricação externos da opção A: **solda da bandeja de metalon** e
+**corte de chapa de aço**. Laser de MDF/acrílico e impressão 3D ficam com a
+equipe. O fornecedor ainda está em aberto. A opção B evita a solda de metalon,
+mas ainda pode precisar de corte de aço para suportes e lastro.
 
 ### Peso estimado
 

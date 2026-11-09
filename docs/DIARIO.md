@@ -38,10 +38,11 @@ Conversa de idealização entre o dono e o assistente.
   adaptador USB-serial (ideia do dono). Existe driver ROS 2 Jazzy pronto. Sem
   magnetômetro no rumo por causa dos ímãs dos motores de cubo.
 
-- **Chassi:** ferramentas da casa são impressão 3D, laser de MDF/acrílico e solda
-  simples. Proposta A (aço soldado embaixo como lastro, colunas de alumínio,
-  decks MDF/acrílico, suspensão de braço com mola) contra B (só alumínio) e
-  C (só MDF, descartada). Montada uma apresentação de 17 slides pro time opinar.
+- **Chassi:** a equipe tem impressão 3D e laser de MDF/acrílico, mas não solda
+  metalon nem corta aço. A proposta A (aço soldado embaixo como lastro, colunas
+  de alumínio, decks MDF/acrílico, suspensão de braço com mola) depende de
+  serviço externo de solda e corte; a B (só alumínio) evita a solda; e a C (só
+  MDF) foi descartada. Montada uma apresentação de 17 slides pro time opinar.
 
 - **Apresentação revisada** (pedido do dono): saíram os slides de cenário,
   lições, perguntas e próximos passos (ficou com 16). A suspensão virou 4 slides:
