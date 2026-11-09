@@ -31,6 +31,7 @@ pra carregar.
 | Chassi | **proposta em discussão**: aço soldado embaixo, alumínio em cima, decks MDF/acrílico | [010](docs/decisoes/010-chassi-proposta.md) |
 | Antitombo | **sapatas de UHMW/nylon nos 4 cantos**, folga = obstáculo + tolerância, ≥ 10 kgf em qualquer direção | [011](docs/decisoes/011-batentes-antitombo.md) |
 | Proteção das rodas | **para-lama no casco** cobrindo o topo das rodas (mão de criança não entra) | [012](docs/decisoes/012-protecao-das-rodas.md) |
+| Percepção | **LD06 no topo da cabeça** + **câmera de profundidade no peito** pro que é baixo | [014](docs/decisoes/014-percepcao-lidar-topo-camera-peito.md) |
 | Elétrica | parecida com o robô 1; **e-stop na traseira corta só as rodas**; sem LED; **sem microcontrolador** | [007](docs/decisoes/007-eletrica-e-emergencia.md) |
 
 - **Apresentação pro time** (base + proposta de chassi): https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL

@@ -19,7 +19,8 @@ O robô **vai sozinho até a estação de carga e encaixa**. Ninguém liga cabo 
 - **Contatos na traseira**: ele entra de ré e a frente (câmera, cara) fica
   livre pra sala.
 - **Alvo pro LiDAR na estação** (formato em V ou padrão refletivo) pro
-  alinhamento final. O Nav2 leva até perto e uma manobra curta de docking
+  alinhamento final. Com o LD06 no topo da cabeça ([014](014-percepcao-lidar-topo-camera-peito.md)),
+  o alvo fica na altura dele (~70 cm). O Nav2 leva até perto e uma manobra curta de docking
   encaixa (existe o `opennav_docking` no Nav2 pra isso).
 - Os contatos e o encaixe precisam ser **seguros pra criança**: sem tensão
   exposta quando o robô não está encaixado (contatos energizados só quando

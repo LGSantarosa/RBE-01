@@ -104,3 +104,10 @@ freio do e-stop.
 
 Próximo: decidir o freio do e-stop; validar campo de visão do LiDAR e rodízios;
 detalhar docagem, fabricação e matriz de requisitos.
+
+- **Percepção (014):** o rodízio da frente tapava o LD06 baixo. Fresta no corpo
+  e janela transparente foram descartadas pelo dono. Ficou **LD06 no topo da
+  cabeça** (cabeça fixa, 360° livres) pra mapa e localização, e **câmera de
+  profundidade no peito** pro que é baixo (mochila, pé, mesa). Para-choque na
+  X1 do ZLAC ficou como proposta. Falta medir as mesas da sala e escolher a
+  câmera. Revisão externa: ponto 3 resolvido.

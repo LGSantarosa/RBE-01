@@ -42,5 +42,6 @@ o próprio modelo já tinha as rodas no meio: "fica interessante".
   que ele precisa passar quando necessário. Por isso a roda precisa ter
   diâmetro razoável (≥ ~14–15 cm) e as omnis não podem ser minúsculas.
 - **Centro de massa baixo**: baterias no fundo do chassi (proposta).
-- **LiDAR**: as rodas, ao lado, vão tapar parte do campo de visão do LD06. Ver a
-  [005](005-navegacao-nav2-ld06-imu.md).
+- **LiDAR**: pra as rodas não taparem o campo, o LD06 foi pro topo da cabeça, com
+  câmera de profundidade no peito pro que é baixo. Ver a
+  [014](014-percepcao-lidar-topo-camera-peito.md).

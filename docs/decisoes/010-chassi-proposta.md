@@ -50,9 +50,12 @@ Alturas a partir do chão (medidas são proposta):
 | Camada | Altura | O que leva |
 |---|---|---|
 | Bandeja de aço | 4–13 cm | motores (fixos), omnis com mola, 2 baterias, driver, relé, fusíveis, IMU no centro |
-| LD06 | ~15 cm, na frente, numa fresta do casco | — |
 | Deck MDF/acrílico | ~30 cm (acima do rodízio de 276 mm) | NUC, conversores |
 | Colunas de alumínio | até ~50 cm | fixação do casco e da cabeça |
+
+O LD06 vai no **topo da cabeça** e a câmera de profundidade no peito
+([014](014-percepcao-lidar-topo-camera-peito.md)); a base não precisa de fresta
+pro laser.
 
 Vista de cima: base 50 × 50 cm, bitola ~42 cm, omnis a ±13 cm do centro, uma
 bateria de cada lado do eixo pra equilibrar, e-stop e contatos de carga na
@@ -171,7 +174,8 @@ da omni. De baixo pra cima:
 | 9 | Ponte + espaçadores | seguram o topo do coilover |
 | 10 | Bandeja | bolso recortado pro módulo |
 
-- Altura da torre: **~205 mm** (com coilover 1/8). O **LiDAR vai na frente dela**.
+- Altura da torre: **~205 mm** (com coilover 1/8). (O LiDAR ia na frente dela; com a [014](014-percepcao-lidar-topo-camera-peito.md)
+ele foi pro topo da cabeça.)
   Um coilover 1/10, mais curto, baixa uns 3 cm. **Ponto a pensar.**
 - Vão livre da bandeja: 40 mm.
 
@@ -207,11 +211,8 @@ casco/cabeça 6,0 → **~30 kg**.
 
 ## Perguntas levadas ao time
 
-1. Chassi A ou B?
-2. Na suspensão escolhida, que riscos o time vê ao adaptar o rodízio de portão
-   com mola para a omni (trava do giro, carga lateral, folga e amortecimento)?
-3. LiDAR baixo, na fresta (vê obstáculo baixo, mas as rodas tapam um pedaço), ou
-   acima das rodas (vê 360°, mas perde o que é baixo)?
-4. Lastro até ~40 kg vale a pena?
-5. Experiência com estação de carga autônoma?
-6. O que preocupa nessa base?
+1. Chassi: aço soldado embaixo (A) ou tudo em perfil de alumínio (B)?
+2. O tamanho, 70 cm de altura e 50 cm de largura, fica bom na sala?
+3. **30–35 kg**: tranquilo pra levantar e levar quando precisar?
+4. Conhecem algum serviço de solda ou de corte de chapa?
+5. Alguma ideia ou preocupação com as crianças por perto?

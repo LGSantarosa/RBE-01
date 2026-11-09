@@ -23,6 +23,7 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 - 009 IMU BNO055 por UART/USB, modo IMU (sem magnetômetro)
 - 011 Batentes antitombo nos 4 cantos
 - 012 Para-lama cobrindo o topo das rodas motoras (requisito)
+- 014 LD06 no topo da cabeça + câmera de profundidade no peito
 
 ## Em discussão
 
@@ -31,7 +32,7 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 ## Próximo tema da conversa
 
 Levar a apresentação ao time e trazer as respostas (chassi A/B, riscos da
-adaptação do rodízio, altura do LiDAR, lastro e estação de carga). Depois:
+adaptação do rodízio, câmera de profundidade, lastro e estação de carga). Depois:
 esquema elétrico completo.
 
 ## Pendências de compra/verificação
@@ -41,10 +42,12 @@ esquema elétrico completo.
 - [ ] Largura e versão (V2.0/V2.07) do motor; cabos inclusos
 - [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: fixo ou giratório, curso da mola, se a omni cabe no garfo, entrega pro Brasil
 - [ ] Decidir o freio do e-stop (ver 007)
+- [ ] **Medir a altura das mesas e cadeiras da sala** (o LD06 a ~70 cm não pode ficar no plano do tampo, 014)
+- [ ] Escolher a câmera de profundidade do peito (014)
 - [x] **Tombamento**: decidido, batentes antitombo nos cantos (011). Falta medir o maior obstáculo do piso pra definir a folga
-- [ ] Concluir as ações da revisão externa: pontos **1, 5, 6 e 9 resolvidos**;
-  faltam **2, 3, 4, 7, 8 e 10** (e-stop, LiDAR, rodízio, docagem, fabricação e
-  matriz de requisitos)
+- [ ] Concluir as ações da revisão externa: pontos **1, 3, 5, 6 e 9 resolvidos**;
+  faltam **2, 4, 7, 8 e 10** (e-stop, rodízio, docagem, fabricação e matriz de
+  requisitos)
 
 ## Em aberto
 

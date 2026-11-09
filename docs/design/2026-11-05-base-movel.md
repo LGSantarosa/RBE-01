@@ -74,13 +74,14 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 | Suspensão | rodas motoras fixas; omnis no **rodízio de portão com mola** comprado pronto; módulo próprio como plano B (dono) | [010](../decisoes/010-chassi-proposta.md) |
 | Antitombo | **sapatas de UHMW/nylon nos 4 cantos**, com força de tombamento medida ≥ 10 kgf em qualquer direção (dono) | [011](../decisoes/011-batentes-antitombo.md) |
 | Proteção das rodas | **para-lama no casco** cobrindo o topo das rodas motoras (requisito do dono) | [012](../decisoes/012-protecao-das-rodas.md) |
+| Percepção | **LD06 no topo da cabeça** (mapa e localização) + **câmera de profundidade no peito** (obstáculos baixos) (dono) | [014](../decisoes/014-percepcao-lidar-topo-camera-peito.md) |
 
 ## 7. Propostas ainda não confirmadas
 
 - Velocidade máx. **~0,4 m/s** perto de criança, ~0,6 m/s em corredor.
 - Baterias no fundo do chassi.
-- **Contatos de carga na traseira**, entrando de ré; alvo em V pro LiDAR.
-- LD06 **baixo, numa fresta em volta da base**, com os ângulos das rodas mascarados.
+- **Contatos de carga na traseira**, entrando de ré; alvo em V pro LiDAR, na altura dele (~70 cm).
+- **Para-choque** na saia da base, na entrada X1 do ZLAC ([014](../decisoes/014-percepcao-lidar-topo-camera-peito.md)).
 - E-stop **cogumelo com trava**, acionando **relé automotivo** que corta a tração, mais contato na **entrada X0** do driver.
 - ROS 2 **Jazzy**.
 
@@ -94,7 +95,9 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
    diâmetro da omni. O módulo próprio da [010](../decisoes/010-chassi-proposta.md)
    é o plano B.
 4. **Chassi**: proposta A em discussão com o time, ver [010](../decisoes/010-chassi-proposta.md).
-5. **LD06**: altura, campo cego das rodas, o que precisa enxergar.
+5. **Percepção** ([014](../decisoes/014-percepcao-lidar-topo-camera-peito.md)):
+   modelo, altura e inclinação da câmera do peito; altura final do LD06 depois de
+   medir as mesas da sala.
 6. **Estação de carga**: contatos, detecção de encaixe, carga das duas baterias.
 7. **Segurança**: decidir o **freio do e-stop** (parada rápida ativa antes de
    cortar a tração), fechar o corte geral, limites de velocidade/aceleração

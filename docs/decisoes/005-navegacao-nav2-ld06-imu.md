@@ -2,7 +2,9 @@
 
 **Data:** 2026-11-05
 **Estado:** aceita (decisão do dono). A IMU foi fechada na
-[009](009-imu-bno055-uart-usb.md); o modelo do PC está em aberto.
+[009](009-imu-bno055-uart-usb.md); a posição do LD06 e a câmera de
+profundidade, na [014](014-percepcao-lidar-topo-camera-peito.md); o modelo do PC
+está em aberto.
 
 ## Decisão (do dono)
 
@@ -25,10 +27,6 @@
 
 ## Em aberto
 
-- **Posição do LD06**: baixo, numa fresta em volta da base (proposta). As rodas
-  laterais vão tapar uma parte do campo; é preciso medir e mascarar esses
-  ângulos. Também é preciso ver se ele enxerga perna de cadeira e mochila no
-  chão.
 - **Parar de frente pra mesa** com precisão: pose final com yaw (o robô 1 não
   fazia giro final de yaw).
 - Modelo do NUC (CPU/RAM pensando na visão futura).
