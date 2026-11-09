@@ -41,8 +41,7 @@ tensão de entrada depende do modelo).
 
 ## Em aberto
 
-- Química (Li-ion vs LiFePO4: LiFePO4 é mais segura perto de criança e dura mais
-  ciclos, mas pesa mais, o que aqui **não é problema**). Preferência a discutir.
 - Modelo/fornecedor; BMS; como medir a tensão e corrente de cada uma no ROS.
 - Como a estação de carga carrega **as duas** (ver [004](004-estacao-de-carga-autonoma.md)).
-- Corte geral e botão de emergência.
+- Detalhar corte geral e integrar o circuito de emergência já decidido na
+  [007](007-eletrica-e-emergencia.md).

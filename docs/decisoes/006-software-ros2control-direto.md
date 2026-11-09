@@ -23,6 +23,10 @@ NUC ──USB──► adaptador USB-RS485 ──A/B──► ZLAC8015D ─┴�
   nós (lição do robô 3).
 - O próprio driver garante a malha de velocidade, a rampa e o **watchdog** de
   comunicação (`2000h`, baixar de 1000 ms pra ~200 ms).
+- O limite não fica só no software: configurar também a **velocidade máxima no
+  driver** (`2008h`). O ponto de partida perto de crianças é **~55 rpm**
+  (≈ 0,4 m/s com roda de 140 mm); qualquer perfil de corredor (~82 rpm,
+  ≈ 0,6 m/s) depende de validação de segurança.
 
 ## Referência de código existente
 
@@ -37,7 +41,10 @@ NUC ──USB──► adaptador USB-RS485 ──A/B──► ZLAC8015D ─┴�
   ganho, já que o driver fecha a malha sozinho.
 - **Nós Python caseiros de cinemática** (`cmd_vel_to_wheels` do robô 1).
 
+Não haverá microcontrolador na base: a [007](007-eletrica-e-emergencia.md)
+fechou essa arquitetura, e a BNO055 fala direto com o NUC conforme a
+[009](009-imu-bno055-uart-usb.md).
+
 ## Em aberto
 
 - Distro: **ROS 2 Jazzy** (a mesma dos outros robôs) é o palpite padrão.
-- Ainda pode existir um micro pra **LEDs, botões e IMU**. Esse é o próximo tema.

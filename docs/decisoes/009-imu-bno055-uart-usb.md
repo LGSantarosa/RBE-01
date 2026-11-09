@@ -35,6 +35,13 @@ de EMI). Portanto:
 - montar a IMU **no centro, presa firme e plana**, o mais longe possível dos
   motores e dos cabos de potência.
 
+## Calibração por robô
+
+O raio efetivo das rodas e a bitola efetiva variam com pneu, carga e fabricação.
+Calibrar **raio e bitola em cada unidade**, comparar odometria com deslocamento e
+giro medidos e guardar os parâmetros por número de série. A IMU e o LiDAR servem
+para validar a calibração, não para esconder erro sistemático da cinemática.
+
 ## Descartado
 
 - **MPU6050 / MPU6500**: sem fusão no chip, I²C (precisaria de micro), histórico

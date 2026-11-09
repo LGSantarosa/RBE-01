@@ -20,7 +20,7 @@ No robô 1, a MEGA existia pra tração, IMU, LEDs, relé e botão. Aqui:
 | Função | Robô 1 | RBE-01 |
 |---|---|---|
 | Tração | MEGA → placas hover | NUC → RS485 → ZLAC8015D |
-| IMU | MEGA (I²C) | **IMU USB direto no NUC** (modelo a escolher) |
+| IMU | MEGA (I²C) | **BNO055 em UART por adaptador USB-serial direto no NUC** ([009](009-imu-bno055-uart-usb.md)) |
 | LEDs / relé | MEGA | **não tem** |
 | Botão | MEGA | e-stop elétrico + entrada X0 do ZLAC |
 | LiDAR | USB | USB |
@@ -62,4 +62,3 @@ precisa ser escolhido com corrente de pico acima do que o driver pede.
 
 - Esquema elétrico completo (chaves, fusíveis, relé, conversor DC-DC do NUC).
 - Como a estação de carga entra nesse circuito ([004](004-estacao-de-carga-autonoma.md)).
-- Modelo da IMU USB.

@@ -11,8 +11,8 @@ Apresentação: https://claude.ai/artifact/4GiDdu8DLxx7WZ58rTv9yL
 - **Ferramentas da casa** (dono): impressão 3D, **corte a laser de MDF e
   acrílico** (não corta metal) e solda simples.
 - O dono acha o chassi "a parte mais embaçada": material e como fazer.
-- Tem que segurar: ~30–35 kg com massa embaixo, suspensão nas rodas motoras
-  ([001](001-cinematica-diferencial-rodas-centrais.md)), LD06 enxergando,
+- Tem que segurar: ~30–35 kg com massa embaixo, rodas motoras fixas e suspensão
+  nas omnis ([001](001-cinematica-diferencial-rodas-centrais.md)), LD06 enxergando,
   e-stop e contatos de carga na traseira, base pra um corpo de 70 cm, e dar pra
   repetir 5 vezes.
 
@@ -51,7 +51,7 @@ Alturas a partir do chão (medidas são proposta):
 |---|---|---|
 | Bandeja de aço | 4–13 cm | motores (fixos), omnis com mola, 2 baterias, driver, relé, fusíveis, IMU no centro |
 | LD06 | ~15 cm, na frente, numa fresta do casco | — |
-| Deck MDF/acrílico | ~26 cm | NUC, conversores |
+| Deck MDF/acrílico | ~30 cm (acima do rodízio de 276 mm) | NUC, conversores |
 | Colunas de alumínio | até ~50 cm | fixação do casco e da cabeça |
 
 Vista de cima: base 50 × 50 cm, bitola ~42 cm, omnis a ±13 cm do centro, uma
@@ -208,7 +208,8 @@ casco/cabeça 6,0 → **~30 kg**.
 ## Perguntas levadas ao time
 
 1. Chassi A ou B?
-2. Suspensão: rodas motoras fixas com mola nas omnis (recomendado), mola nas rodas motoras ou gangorra com molas?
+2. Na suspensão escolhida, que riscos o time vê ao adaptar o rodízio de portão
+   com mola para a omni (trava do giro, carga lateral, folga e amortecimento)?
 3. LiDAR baixo, na fresta (vê obstáculo baixo, mas as rodas tapam um pedaço), ou
    acima das rodas (vê 360°, mas perde o que é baixo)?
 4. Lastro até ~40 kg vale a pena?

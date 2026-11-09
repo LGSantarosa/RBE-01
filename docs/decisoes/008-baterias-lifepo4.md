@@ -44,15 +44,24 @@ embaixo).
 
 ## ⚠️ Condição pra fechar
 
-**Confirmar a faixa de tensão de alimentação do ZLAC8015D.** A 8S vai de ~20 V
-(vazia) a 29,2 V (cheia). Se o driver tiver mínimo de 24 V, ele vai dar
-**subtensão** antes da bateria acabar, e a capacidade útil cai muito. Nesse caso
-as saídas são: cortar o uso em ~24 V (perde autonomia) ou rever a configuração
-(ex.: 9S/10S, se o motor e o driver aceitarem). **Não comprar bateria antes disso.**
+**Confirmar a faixa de tensão de alimentação e o comportamento regenerativo do
+ZLAC8015D.** A 8S vai de ~20 V (vazia) a 29,2 V (cheia). Se o driver tiver
+mínimo de 24 V, ele vai dar **subtensão** antes da bateria acabar, e a capacidade
+útil cai muito. Nesse caso as saídas são: cortar o uso em ~24 V (perde
+autonomia) ou rever a configuração (ex.: 9S/10S, se o motor e o driver
+aceitarem). **Não comprar bateria antes disso.**
+
+Na frenagem, confirmar se o ZLAC **regenera para o barramento** e como limita a
+tensão. Se o BMS bloquear corrente de carga — especialmente com a bateria cheia
+— a tensão do barramento pode subir até uma falha de sobretensão. A combinação
+ZLAC + bateria/BMS precisa aceitar a energia regenerada ou ter uma forma
+dimensionada de dissipá-la.
 
 ## Em aberto
 
 - Modelo/fornecedor (pack pronto com BMS vs montar com células prismáticas).
+- Corrente de carga aceita pelo BMS durante a frenagem, sobretensão do barramento
+  e eventual necessidade de resistor/circuito de frenagem.
 - Como medir a tensão e a corrente de cada bateria no ROS (a tensão da tração
   vem do `20A1h` do driver; a da computação precisa de um sensor).
 - Carregador e integração com a estação de carga ([004](004-estacao-de-carga-autonoma.md)).

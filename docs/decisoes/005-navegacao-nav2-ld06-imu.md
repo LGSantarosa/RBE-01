@@ -1,7 +1,8 @@
 # 005 — Navegação: Nav2 + LiDAR 2D LD06 + IMU, mini PC tipo NUC
 
 **Data:** 2026-11-05
-**Estado:** aceita (decisão do dono). O modelo da IMU e o do PC estão em aberto.
+**Estado:** aceita (decisão do dono). A IMU foi fechada na
+[009](009-imu-bno055-uart-usb.md); o modelo do PC está em aberto.
 
 ## Decisão (do dono)
 
@@ -28,8 +29,6 @@
   laterais vão tapar uma parte do campo; é preciso medir e mascarar esses
   ângulos. Também é preciso ver se ele enxerga perna de cadeira e mochila no
   chão.
-- **Qual IMU** e onde ela é lida (direto no NUC por USB, ou por um micro). Ver o
-  próximo tema: IMU, LEDs, botões e se ainda precisa de microcontrolador.
 - **Parar de frente pra mesa** com precisão: pose final com yaw (o robô 1 não
   fazia giro final de yaw).
 - Modelo do NUC (CPU/RAM pensando na visão futura).

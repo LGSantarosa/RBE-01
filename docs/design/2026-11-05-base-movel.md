@@ -71,11 +71,14 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 | Elétrica | como o robô 1; **e-stop na traseira** derruba só as rodas; **sem LED**; base **sem microcontrolador** (dono + consequência) | [007](../decisoes/007-eletrica-e-emergencia.md) |
 | IMU | **BNO055 em modo UART** + adaptador USB-serial no NUC, driver `bno055` Jazzy; modo de fusão IMU, sem magnetômetro (dono + proposta) | [009](../decisoes/009-imu-bno055-uart-usb.md) |
 | Software da tração | `ros2_control` direto no driver + `diff_drive_controller`, sem micro na tração, SI ponta a ponta (proposta, aceita com a tração) | [006](../decisoes/006-software-ros2control-direto.md) |
+| Chassi | proposta em discussão: aço soldado embaixo, alumínio em cima, decks de MDF/acrílico | [010](../decisoes/010-chassi-proposta.md) |
+| Suspensão | rodas motoras fixas; omnis no **rodízio de portão com mola** comprado pronto; módulo próprio como plano B (dono) | [010](../decisoes/010-chassi-proposta.md) |
+| Antitombo | **sapatas de UHMW/nylon nos 4 cantos**, com força de tombamento medida ≥ 10 kgf em qualquer direção (dono) | [011](../decisoes/011-batentes-antitombo.md) |
+| Proteção das rodas | **para-lama no casco** cobrindo o topo das rodas motoras (requisito do dono) | [012](../decisoes/012-protecao-das-rodas.md) |
 
 ## 7. Propostas ainda não confirmadas
 
 - Velocidade máx. **~0,4 m/s** perto de criança, ~0,6 m/s em corredor.
-- **Suspensão de mola** nas rodas motoras (alternativa: gangorra nas omnis).
 - Baterias no fundo do chassi.
 - **Contatos de carga na traseira**, entrando de ré; alvo em V pro LiDAR.
 - LD06 **baixo, numa fresta em volta da base**, com os ângulos das rodas mascarados.
@@ -87,11 +90,15 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 1. ~~IMU~~ → [009](../decisoes/009-imu-bno055-uart-usb.md). **Esquema elétrico**: chaves, fusíveis, relé do e-stop, DC-DC do NUC.
 2. **Baterias**: modelo/fornecedor, monitoramento das duas no ROS. **Depende da
    faixa de tensão do ZLAC8015D.**
-3. **Suspensão e omnis**: tipo, diâmetro da omni, curso.
+3. **Suspensão e omnis**: validar em bancada os 2 rodízios de portão com mola
+   (trava do giro, curso, rigidez, atrito/folga e encaixe da omni); medir o
+   diâmetro da omni. O módulo próprio da [010](../decisoes/010-chassi-proposta.md)
+   é o plano B.
 4. **Chassi**: proposta A em discussão com o time, ver [010](../decisoes/010-chassi-proposta.md).
 5. **LD06**: altura, campo cego das rodas, o que precisa enxergar.
 6. **Estação de carga**: contatos, detecção de encaixe, carga das duas baterias.
-7. **Segurança**: e-stop, corte geral, limites de velocidade/aceleração perto de
-   pessoa, para-choque/detecção de contato?
+7. **Segurança**: decidir o **freio do e-stop** (parada rápida ativa antes de
+   cortar a tração), fechar o corte geral, limites de velocidade/aceleração
+   perto de pessoa e para-choque/detecção de contato.
 8. **NUC**: modelo e alimentação.
 9. Confirmações de ficha do ZLTECH/ZLAC (tensão de alimentação, largura, versão).
