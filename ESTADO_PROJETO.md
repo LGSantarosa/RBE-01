@@ -1,7 +1,7 @@
 # Estado do Projeto — RBE-01
 
 > Documento vivo. O que está decidido, o que está aberto e o que vem a seguir.
-> Atualizado em **2026-11-05**.
+> Atualizado em **2026-11-09**.
 
 ## Fase
 
@@ -30,7 +30,9 @@ estão em `docs/decisoes/`, e o design consolidado (em construção) em
 
 ## Próximo tema da conversa
 
-Levar a apresentação ao time e trazer as respostas (chassi A/B, suspensão, altura do LiDAR, lastro, estação de carga). Depois: esquema elétrico completo.
+Levar a apresentação ao time e trazer as respostas (chassi A/B, riscos da
+adaptação do rodízio, altura do LiDAR, lastro e estação de carga). Depois:
+esquema elétrico completo.
 
 ## Pendências de compra/verificação
 
@@ -40,7 +42,9 @@ Levar a apresentação ao time e trazer as respostas (chassi A/B, suspensão, al
 - [ ] **2 rodízios de portão com mola** (Castors Online, £ 25) pra bancada: fixo ou giratório, curso da mola, se a omni cabe no garfo, entrega pro Brasil
 - [ ] Decidir o freio do e-stop (ver 007)
 - [x] **Tombamento**: decidido, batentes antitombo nos cantos (011). Falta medir o maior obstáculo do piso pra definir a folga
-- [ ] Triar com o dono os pontos da revisão externa (e-stop, LiDAR, regeneração, docagem, chapa dobrada, matriz de requisitos)
+- [ ] Concluir as ações da revisão externa: pontos **1, 5, 6 e 9 resolvidos**;
+  faltam **2, 3, 4, 7, 8 e 10** (e-stop, LiDAR, rodízio, docagem, fabricação e
+  matriz de requisitos)
 
 ## Em aberto
 

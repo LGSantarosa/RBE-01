@@ -71,7 +71,6 @@ foi acumulando ([000](../decisoes/000-projeto-independente.md)).
 | Elétrica | como o robô 1; **e-stop na traseira** derruba só as rodas; **sem LED**; base **sem microcontrolador** (dono + consequência) | [007](../decisoes/007-eletrica-e-emergencia.md) |
 | IMU | **BNO055 em modo UART** + adaptador USB-serial no NUC, driver `bno055` Jazzy; modo de fusão IMU, sem magnetômetro (dono + proposta) | [009](../decisoes/009-imu-bno055-uart-usb.md) |
 | Software da tração | `ros2_control` direto no driver + `diff_drive_controller`, sem micro na tração, SI ponta a ponta (proposta, aceita com a tração) | [006](../decisoes/006-software-ros2control-direto.md) |
-| Chassi | proposta em discussão: aço soldado embaixo, alumínio em cima, decks de MDF/acrílico | [010](../decisoes/010-chassi-proposta.md) |
 | Suspensão | rodas motoras fixas; omnis no **rodízio de portão com mola** comprado pronto; módulo próprio como plano B (dono) | [010](../decisoes/010-chassi-proposta.md) |
 | Antitombo | **sapatas de UHMW/nylon nos 4 cantos**, com força de tombamento medida ≥ 10 kgf em qualquer direção (dono) | [011](../decisoes/011-batentes-antitombo.md) |
 | Proteção das rodas | **para-lama no casco** cobrindo o topo das rodas motoras (requisito do dono) | [012](../decisoes/012-protecao-das-rodas.md) |

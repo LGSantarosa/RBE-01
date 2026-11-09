@@ -84,3 +84,23 @@ Conversa de idealização entre o dono e o assistente.
 
 Próximo: medir a corrediça e o tapete; comprar 2 rodízios e medir; trazer a opinião do time; o dono decide o
 freio do e-stop.
+
+## 2026-11-09 — Consolidação da revisão externa
+
+- Corrigidos os textos antigos que ainda tratavam como abertas decisões já
+  fechadas sobre suspensão, bateria, IMU e ausência de microcontrolador.
+- O deck do NUC subiu de ~26 cm para **~30 cm**, acima do rodízio de portão de
+  276 mm.
+- O limite de velocidade passou a ser configurado também no driver (`2008h`):
+  ponto de partida de **~55 rpm / 0,4 m/s** perto de crianças; o perfil de
+  corredor (~82 rpm / 0,6 m/s) depende de validação de segurança.
+- Registrada na 008 a verificação da **regeneração do ZLAC com o BMS**, incluindo
+  o risco de sobretensão no barramento durante a frenagem.
+- Registrada a calibração de raio e bitola por unidade e reformulada a pergunta
+  ao time: a suspensão está escolhida; agora é preciso avaliar os riscos da
+  adaptação do rodízio (trava do giro, carga lateral, folga e amortecimento).
+- Revisão externa: pontos **1, 5, 6 e 9 resolvidos**; continuam abertos **2, 3,
+  4, 7, 8 e 10**.
+
+Próximo: decidir o freio do e-stop; validar campo de visão do LiDAR e rodízios;
+detalhar docagem, fabricação e matriz de requisitos.
