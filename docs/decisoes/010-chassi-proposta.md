@@ -1,6 +1,16 @@
 # 010 — Chassi: aço embaixo, alumínio em cima, MDF/acrílico nos decks
 
 **Data:** 2026-11-05
+> **Atualização 2026-11-10 ([015](015-base-nossa-corpo-das-criancas.md)):** as
+> crianças fazem o corpo. A parte de cima deixa de ser nossa: o **NUC e os
+> conversores descem pra dentro da base fechada** (~20 cm), em cima dela fica
+> a **placa de interface fixa**, a elétrica é acessada pelos **painéis da frente
+> e de trás** e os sensores vão num **mastro** central. O
+> "casco/cabeça" desta proposta passa a ser o corpo das crianças.
+> O **rodízio de portão (276 mm) sai**: a omni vai num **módulo próprio** de
+> ~13 cm (2 hastes Ø8 + LM8UU + molas, curso ~10 mm), descrito na 015. Onde este
+> texto fala do rodízio de portão, vale o módulo.
+
 **Estado:** **proposta em discussão**. Vai ser apresentada ao time pra opinião;
 nada aqui está aceito ainda.
 

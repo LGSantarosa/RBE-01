@@ -117,3 +117,43 @@ detalhar docagem, fabricação e matriz de requisitos.
   o deslocamento do garfo giratório. Travar o giro não basta; o garfo precisa
   ser trocado ou adaptado. Registrado na 010 e na pendência da bancada.
   Desenho do slide 9 corrigido.
+
+- **Tensão do ZLAC8015D (008):** o manual V2.00 dá entrada de 20–48 V,
+  subtensão em 16 V e sobretensão em 75 V. A 8S LiFePO4 (20–29,2 V) cabe
+  inteira; mesmo se o mínimo real for 24 V, perde pouco. O que ainda bloqueia
+  a compra da bateria é a regeneração na frenagem, que o manual não cobre.
+
+- **Conversores (003):** rodas ligadas direto na bateria de tração (driver
+  aceita 20–48 V); o NUC precisa de DC-DC, de saída 12 V ou buck-boost 19 V,
+  porque a 8S chega a ~20 V no fim da carga.
+
+## 2026-11-10 — O corpo é das crianças
+
+- O time **gostou da apresentação** e teve uma ideia: as **crianças criam e
+  decoram o corpo** do robô, como projeto delas na sala criativa. Nós fazemos a
+  base móvel e a estrutura.
+- Medo do dono: o corpo delas fazer o robô parar de funcionar.
+- Princípio: **regra no papel, criança não segue; barreira física segue.**
+  Base fechada com tampa (NUC desce pra dentro), mastro central com LD06 no
+  topo e câmera num "nariz", corpo livre dentro de um envelope (largura,
+  altura, peso).
+- O assistente propôs um "chapéu" com pilares pra proteger o LD06. **Errado**,
+  apontado pelo dono: o LD06 é **fechado** (38,59 × 38,59 × 33,30 mm, IPX4), ninguém
+  segura o rotor, e o datasheet pede a janela exposta. O risco real é tapar a
+  janela, e isso é coisa de software: **vigia** que para o robô quando o sensor
+  fica cego (pontos colados, setor sem retorno, giro fora da faixa).
+- Registrado na **015**; 010 e 014 atualizadas. Montada uma apresentação nova
+  pro time.
+- Ajuste do dono: o **LD06 pode ser o topinho da cabeça** das crianças (a janela
+  fica livre, o vigia cuida do resto) e a **câmera fica no peito**, por um furo
+  do corpo, em vez do "nariz".
+- Ajuste do dono: mexer na elétrica **não pode exigir desmontar o corpo** delas.
+  A placa de cima vira fixa (estrutura) e o acesso passa a ser pelos **painéis da
+  frente e de trás**, com fecho de chave. Regra nova do corpo: não desce pelas
+  laterais da base.
+- Desenho do acesso corrigido (o assistente passou a renderizar os slides com o
+  Chromium local pra conferir antes de publicar). **Botão de emergência** vai pra
+  **parede de trás da base**, na moldura acima do painel, com anel de proteção
+  (escolha do dono). A apresentação ganhou desenhos: o encaixe base + corpo, o
+  detalhe da cabeça com o laser inclinado, o envelope com o mapa de cores, o que
+  o vigia vê e a inspeção.

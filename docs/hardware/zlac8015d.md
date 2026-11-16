@@ -62,5 +62,13 @@ Sequência de init do manual: modo 3 → acel/desacel → `200Eh = 0x08`.
   `diff_drive_controller` vai arredondar e isso precisa estar no sim.
 - Um ciclo (escrita síncrona + leitura de 6 registradores) leva ~2–3 ms a
   115200: 50 Hz com folga. Dá pra subir o baud se precisar.
-- **Faixa de tensão de alimentação NÃO está neste manual.** Confirmar no manual
-  de hardware.
+- **Faixa de tensão de alimentação** não está neste manual. Está no
+  *ZLAC8015 Servo Driver Manual V2.00* (2021-02-21), tabela elétrica: entrada
+  **20 V mín. / 36 V típ. / 48 V máx.**, proteção de **subtensão em 16 V** e de
+  **sobretensão em 75 V** (típicos; o manual não diz se são configuráveis). O
+  texto do mesmo manual diz "24V–48VDC"; mesmo assim a 8S LiFePO4 (20–29,2 V)
+  fica dentro, e abaixo de 24 V (3,0 V/célula) sobra pouca carga. Lido numa
+  cópia não oficial: https://all-guidesbox.com/manual/2447750/zltech-zlac8015d-quick-start-manual-9.html
+- **Regeneração na frenagem: o manual V2.00 não fala.** Nem resistor de
+  frenagem nem retorno pra bateria ("brake" lá é o freio eletromagnético do
+  motor). Perguntar à ZLTECH ou medir na bancada (ver 008).

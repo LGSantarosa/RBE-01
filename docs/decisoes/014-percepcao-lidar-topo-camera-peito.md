@@ -24,6 +24,13 @@ proteção.
 | Dois LD06 (topo + meio do corpo) | descartada: o do meio cai num dos casos acima |
 | **LD06 no topo da cabeça + câmera de profundidade no peito** | **escolhida** |
 
+> **Atualização 2026-11-10 ([015](015-base-nossa-corpo-das-criancas.md)):** o
+> corpo passa a ser das crianças. O **LD06 fica no topo de um mastro** nosso
+> (~70 cm) e vira o topinho da cabeça delas, e a **câmera fica presa no mesmo
+> mastro, no peito**, olhando por um furo do corpo. Os papéis e as alturas abaixo
+> continuam valendo. A janela do LD06 tem que ficar exposta (datasheet), e
+> tapar o sensor é detectado por um vigia no software.
+
 ## Decisão (do dono)
 
 - **LD06 no topo da cabeça** (~70 cm). Nada fica acima dele: 360° livres, sem
@@ -79,4 +86,4 @@ Papéis:
   da criança.
 - Altura e inclinação da câmera no peito (que distância do chão ela cobre).
 - Altura final do LD06, depois de medir as mesas.
-- Desenho do topo da cabeça pra nada do capacete cruzar o plano do laser.
+- ~~Desenho do topo da cabeça~~: virou o envelope do corpo das crianças (015).

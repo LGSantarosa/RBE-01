@@ -1,8 +1,8 @@
 # 008 — Baterias: duas LiFePO4 8S (25,6 V), ~10 Ah
 
 **Data:** 2026-11-05
-**Estado:** aceita (o dono topou LiFePO4 "se ela é melhor pra esse caso"). Falta
-confirmar a faixa de tensão do driver e fechar o modelo.
+**Estado:** aceita (o dono topou LiFePO4 "se ela é melhor pra esse caso"). Faixa
+de tensão do driver confirmada (2026-11-10); falta a regeneração e fechar o modelo.
 
 Complementa a [003](003-energia-duas-baterias.md) (duas baterias iguais,
 tração / computação).
@@ -44,18 +44,21 @@ embaixo).
 
 ## ⚠️ Condição pra fechar
 
-**Confirmar a faixa de tensão de alimentação e o comportamento regenerativo do
-ZLAC8015D.** A 8S vai de ~20 V (vazia) a 29,2 V (cheia). Se o driver tiver
-mínimo de 24 V, ele vai dar **subtensão** antes da bateria acabar, e a capacidade
-útil cai muito. Nesse caso as saídas são: cortar o uso em ~24 V (perde
-autonomia) ou rever a configuração (ex.: 9S/10S, se o motor e o driver
-aceitarem). **Não comprar bateria antes disso.**
+**Faixa de tensão: resolvida (2026-11-10).** O *ZLAC8015 Servo Driver Manual
+V2.00* dá entrada de **20 V mín. / 36 V típ. / 48 V máx.**, subtensão em **16 V**
+e sobretensão em **75 V** (o texto do manual diz "24V–48V", a tabela diz 20 V).
+A 8S vai de ~20 V a 29,2 V, então fica dentro. Mesmo no pior caso (mínimo de
+24 V = 3,0 V/célula), a LiFePO4 passa quase toda a descarga no patamar de
+3,2–3,3 V/célula (25,6–26,4 V) e perde só uma fração pequena (estimativa
+~5–10 %). A 8S está mantida. Detalhes em [`../hardware/zlac8015d.md`](../hardware/zlac8015d.md).
 
 Na frenagem, confirmar se o ZLAC **regenera para o barramento** e como limita a
 tensão. Se o BMS bloquear corrente de carga — especialmente com a bateria cheia
 — a tensão do barramento pode subir até uma falha de sobretensão. A combinação
 ZLAC + bateria/BMS precisa aceitar a energia regenerada ou ter uma forma
-dimensionada de dissipá-la.
+dimensionada de dissipá-la. **O manual V2.00 não fala de regeneração**:
+perguntar à ZLTECH ou medir na bancada. **Não comprar bateria antes disso**
+(muda a corrente de carga que o BMS precisa aceitar).
 
 ## Em aberto
 

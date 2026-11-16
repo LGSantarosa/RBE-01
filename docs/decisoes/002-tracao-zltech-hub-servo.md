@@ -74,8 +74,9 @@ não tombar, e o motor no cubo é a massa mais baixa possível do robô. Aqui o 
 
 ## A confirmar antes de comprar
 
-1. **Faixa de tensão de alimentação** do ZLAC8015D (não está no manual RS485;
-   ver manual de hardware) com a bateria de 24 V cheia/vazia.
+1. ~~Faixa de tensão de alimentação do ZLAC8015D~~ **Resolvido:** 20–48 V,
+   subtensão em 16 V (manual V2.00; ver [`../hardware/zlac8015d.md`](../hardware/zlac8015d.md)).
+   A 8S LiFePO4 cabe inteira.
 2. **Largura** do motor (estimativa 5–6 cm) e versão (V2.0/V2.07).
 3. Se o kit vem com cabos (fases + encoder) no comprimento necessário.
 
